@@ -1,0 +1,110 @@
+/* Basic CSS Reset */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    line-height: 1.6;
+    font-family: 'Lato', sans-serif; /* Set Lato as the global font */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light background for the whole page */
+}
+
+h1, h2, h3,h4 {  
+    font-family: 'Lato', sans-serif
+}
+
+/* Header Styles */
+.main-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 40px 20px;
+}
+
+.main-content h1 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.main-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.main-footer p {
+    margin: 5px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate; /* Separate borders for rounded effect */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* To clip the corners */
+    background-color: #ffffff; /* Background color for the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+thead {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+}
+
+th, td {
+    padding: 12px; /* Padding for table cells */
+    text-align: center; /* Align text to the center */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+tr:hover {
+    background-color: #e9ecef; /* Highlight row on hover */
+}
