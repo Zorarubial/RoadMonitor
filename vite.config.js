@@ -13,4 +13,10 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+
+    //for Vercel deployment, build output directory
+    build: {
+        outDir: 'public/build', // Ensure compiled assets are stored here
+        emptyOutDir: true,  // Clears previous builds
+    }
 });
